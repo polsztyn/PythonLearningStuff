@@ -1,0 +1,22 @@
+Starting the notebook server
+You can start running a notebook server from the command line using the following command:
+
+ipython notebook
+
+
+This will print some information about the notebook server in your console, and open a web browser to the URL 
+of the web application (by default, http://127.0.0.1:8888).
+
+The landing page of the IPython notebook web application, the dashboard, shows the notebooks 
+currently available in the notebook directory (by default, the directory from which the notebook server was started).
+
+You can create new notebooks from the dashboard with the New Notebook button, or open existing ones 
+by clicking on their name. You can also drag and drop .ipynb notebooks and standard .py Python source code files 
+into the notebook list area.
+
+When starting a notebook server from the command line, you can also open a particular notebook directly, bypassing 
+the dashboard, with ipython notebook my_notebook.ipynb. The .ipynb extension is assumed if no extension is given.
+
+When you are inside an open notebook, the File | Open... menu option will open the dashboard in a new browser tab, 
+to allow you to open another notebook from the notebook directory or to create a new notebook.
+
